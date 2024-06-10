@@ -1,0 +1,26 @@
+{
+  "name": "Gold & Silver Bullion Bazaar",
+  "version": "1.0.0",
+  "description": "I have developed a comprehensive e-commerce platform using the MERN stack, specializing in offering gold and silver bullion for investment purposes. The platform will feature three renowned brands: MMTC Pamp, Kundan, and Bangalore Refinery, with products available in the form of bars and coins.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex21c/gold-and-silver-bullion-bazaar"
+  },
+  "keywords": [
+    "Gold & Silver Bullion Bazaar",
+    "major project",
+    "MERN Stack project",
+    "geekster",
+    "alex21c"
+  ],
+  "author": "Abhishek kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alex21c/gold-and-silver-bullion-bazaar/issues"
+  },
+  "homepage": "https://github.com/Alex21c/gold-and-silver-bullion-bazaar#readme"
+}
