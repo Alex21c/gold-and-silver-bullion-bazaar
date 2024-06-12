@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/Alex21c/gold-and-silver-bullion-bazaar/issues"
   },
-  "homepage": "https://github.com/Alex21c/gold-and-silver-bullion-bazaar#readme"
+  "homepage": "https://github.com/Alex21c/gold-and-silver-bullion-bazaar#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
 }
