@@ -16,7 +16,7 @@ const genJwtToken = (doc) => {
         role: doc.role,
       },
       process.env.JWT_SECRET_KEY,
-      { expiresIn: "1d" }
+      { expiresIn: process.env.JWT_TOKEN_EXPIRES_AFTER }
     )
   );
 };

@@ -11,11 +11,11 @@ const productSchema = new mongoose.Schema(
       { type: mongoose.Types.ObjectId, ref: "review", required: false },
     ],
     seller: { type: mongoose.Types.ObjectId, ref: "seller", required: true },
-    images: [{ type: String, required: true }],
-    imagesRootDir: { type: String, required: true },
-    productDetails: { type: Map, of: String, required: true },
-    aboutThisItem: [{ type: String, required: true }],
-    productSpecifications: { type: Map, of: String, required: true },
+    primaryImage: { type: Map, of: String, required: true },
+    supportingImages: [{ type: Map, of: String, required: false }],
+    productDetails: { type: String, required: false },
+    aboutThisItem: { type: String, required: false },
+    productSpecifications: { type: String, required: false },
   },
   { timestamps: true }
 );
