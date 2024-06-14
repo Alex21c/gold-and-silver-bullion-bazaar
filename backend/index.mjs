@@ -13,7 +13,7 @@ app.use(morgan("dev"));
 
 // Making connection with DB
 mongoose
-  .connect(process.env.MONGODB_CONNECTION_STRING)
+  .connect(process.env.MONGODB_CONNECTION_STRING_LOCALHOST)
   .then(() => {
     console.log("Connection Established with Database!");
   })

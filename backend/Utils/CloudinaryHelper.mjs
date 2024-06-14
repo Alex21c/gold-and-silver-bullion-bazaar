@@ -25,4 +25,15 @@ export default class CloudinaryHelper {
       }
     });
   }
+
+  deleteFile(fileUniqueID) {
+    return new Promise(async (resolve, rejected) => {
+      try {
+        const response = await cloudinary.uploader.destroy(fileUniqueID);
+        resolve(response);
+      } catch (error) {
+        rejected(error);
+      }
+    });
+  }
 }
